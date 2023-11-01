@@ -1,0 +1,48 @@
+
+  @import url(
+    'https://fonts.googleapis.com/css2?family=Manrope:wght@500&family=Montserrat:wght@300;900&display=swap'
+    );
+
+
+html{
+    background-color: #1E1E1E;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Manrope;
+    width: 430px;
+    background-color: #81BECE;
+    min-height: 932px;
+}
+.logo{
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    background-color: #E8EDE7;
+    margin: 60px auto 20px;
+}
+.name_company{
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    width: 350px;
+    text-align: center;
+    color: #012E4A;
+    margin-bottom: 70px;
+}
+.button{
+    background-color: #036280;
+    border-radius: 20px;
+    margin-bottom: 35px;
+    padding: 13px 110px;
+    color: #FFFFFF;
+    font-size: 24px;
+    text-decoration: none;
+}
