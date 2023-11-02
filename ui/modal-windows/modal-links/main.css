@@ -7,7 +7,7 @@ html{
     flex-direction: column;
     justify-content: center;
 }
-.modal-info{
+.modal-links{
     width: 370px;
     height: 506px;
     background: #1F1818;
@@ -17,30 +17,22 @@ html{
     align-items: center;
     
 }
-.modal-info-btn{
-    color: #E8EDE7;
-    padding: 13px 99px;
-    border-radius: 20px;
-    background: #036280;
-    font-family: Manrope;
-    font-size: 24px;
-    text-decoration: none;
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    align-items: center;
 }
-.info{
+.header h1{
+    color: #FFF;
     font-family: Manrope;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 600;
-    color: #FFFFFF;
-    width: 300px;
-    margin-top: 66px;
-    margin-bottom: 88px;
+    font-style: normal;
 }
 .close{
     font-family: Manrope;
     font-size: 48px;
     transform: rotate(-45deg);
-    color: #FFFFFF;
-    position: relative;
-    left: 154px;
-    
+    color: #FFFFFF;    
 }
